@@ -75,13 +75,13 @@
       <h2 class="popup-title" id="popup-title">Wanna donate?</h2>
       <p class="popup-subtitle">This website runs purely on claps and good intentions.</p>
       <div class="popup-equation">1 Applause = 1 Donate</div>
-      <p class="popup-subtitle">Go ahead. Clap. We'll know.</p>
+      <p class="popup-subtitle">Save your applause for the end of the presentation. But we need your commitment now.</p>
       <div class="popup-btn-row">
         <button class="popup-btn popup-btn-donate" id="popup-clap-btn">
-          &#128079; Donate a Clap
+          &#128079; I promise to clap
         </button>
         <button class="popup-btn popup-btn-close" id="popup-decline-btn">
-          No thanks
+          Never ever
         </button>
       </div>
       <p class="popup-disclaimer">* No actual transaction involved. Side effects may include involuntary applause.</p>
