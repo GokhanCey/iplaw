@@ -123,7 +123,25 @@
     if (e.key === 'Escape') closePopup();
   });
 
-  // Show popup after 3.5 seconds
-  setTimeout(openPopup, 3500);
+  // Show popup when scrolling to the footer (end of the presentation)
+  let popupShown = false;
+  
+  const observer = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting && !popupShown) {
+        popupShown = true;
+        // Small delay to make it feel natural
+        setTimeout(openPopup, 500);
+      }
+    });
+  }, {
+    root: null,
+    threshold: 0.1 // Trigger when 10% of the footer is visible
+  });
+
+  const footer = document.querySelector('.site-footer');
+  if (footer) {
+    observer.observe(footer);
+  }
 
 })();
