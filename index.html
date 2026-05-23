@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>IP Law: US vs EU — A Legal Framework Comparison</title>
+  <meta name="description" content="A detailed comparison of intellectual property law between the United States and the European Union, covering copyright, trademark, character protection, and artistic expression." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- Header -->
+  <header class="site-header">
+    <div class="container">
+      <p class="header-eyebrow">Comparative Legal Analysis</p>
+      <h1 class="site-title">IP Law:<br><span class="title-accent">US vs EU</span></h1>
+      <p class="site-subtitle">A Legal Framework Comparison</p>
+      <div class="header-rule"></div>
+    </div>
+  </header>
+
+  <!-- Main content -->
+  <main class="main-content">
+    <div class="container">
+
+      <!-- Toggle -->
+      <div class="toggle-wrapper" role="tablist" aria-label="Jurisdiction selector">
+        <button
+          id="btn-us"
+          class="toggle-btn active"
+          role="tab"
+          aria-selected="true"
+          aria-controls="panel-us"
+          onclick="switchPanel('us')"
+        >
+          <span class="flag" aria-hidden="true">&#127482;&#127480;</span>
+          United States
+        </button>
+        <div class="toggle-sep" aria-hidden="true">vs</div>
+        <button
+          id="btn-eu"
+          class="toggle-btn"
+          role="tab"
+          aria-selected="false"
+          aria-controls="panel-eu"
+          onclick="switchPanel('eu')"
+        >
+          <span class="flag" aria-hidden="true">&#127466;&#127482;</span>
+          European Union
+        </button>
+      </div>
+
+      <!-- ===================== US PANEL ===================== -->
+      <section id="panel-us" class="panel active" role="tabpanel" aria-labelledby="btn-us">
+
+        <div class="panel-header">
+          <div class="panel-header-inner">
+            <span class="panel-kicker">Jurisdiction</span>
+            <h2 class="panel-title">United States</h2>
+            <p class="panel-lead">Federal intellectual property law structured primarily through congressional statutes and interpreted through decades of landmark case precedent in federal courts.</p>
+          </div>
+          <div class="panel-number" aria-hidden="true">01</div>
+        </div>
+
+        <div class="section-list">
+
+          <!-- 1. Copyright -->
+          <article class="law-section" id="us-copyright">
+            <div class="section-meta">
+              <span class="section-num">01</span>
+              <span class="section-tag">Copyright</span>
+            </div>
+            <div class="section-body">
+              <h3 class="section-title">Copyright Law</h3>
+              <p class="section-cite">17 U.S.C. § 102 — Subject Matter and Scope of Copyright</p>
+
+              <div class="statute-block">
+                <p class="statute-label">Statutory Text, § 102(a)</p>
+                <blockquote class="statute-quote">
+                  "Copyright protection subsists, in accordance with this title, in original works of authorship fixed in any tangible medium of expression, now known or later developed, from which they can be perceived, reproduced, or otherwise communicated, either directly or with the aid of a machine or device. Works of authorship include the following categories: (1) literary works; (2) musical works, including any accompanying words; (3) dramatic works, including any accompanying music; (4) pantomimes and choreographic works; (5) pictorial, graphic, and sculptural works; (6) motion pictures and other audiovisual works; (7) sound recordings; and (8) architectural works."
+                </blockquote>
+                <p class="statute-label">Statutory Text, § 102(b)</p>
+                <blockquote class="statute-quote">
+                  "In no case does copyright protection for an original work of authorship extend to any idea, procedure, process, system, method of operation, concept, principle, or discovery, regardless of the form in which it is described, explained, illustrated, or embodied in such work."
+                </blockquote>
+              </div>
+
+              <div class="analysis-block">
+                <p class="analysis-label">Key Principles</p>
+                <ul class="analysis-list">
+                  <li>Protection arises automatically upon creation and fixation in a tangible medium, with no registration requirement for the copyright to vest.</li>
+                  <li>Registration with the U.S. Copyright Office is required before bringing an infringement action for U.S. works, and enables statutory damages and attorney fees (17 U.S.C. § 411, § 412).</li>
+                  <li>The work must be "original," meaning independently created and possessing at least a minimal degree of creativity (<em>Feist Publications v. Rural Telephone Service</em>, 499 U.S. 340, 1991).</li>
+                  <li>The idea-expression dichotomy in § 102(b) is fundamental: copyright never protects ideas, only the particular expression of those ideas.</li>
+                  <li>Duration: life of the author plus 70 years for works created after January 1, 1978 (17 U.S.C. § 302(a)).</li>
+                  <li>Fair use is codified in 17 U.S.C. § 107, permitting uses for criticism, comment, news reporting, teaching, scholarship, and research, evaluated under a four-factor balancing test.</li>
+                </ul>
+              </div>
+            </div>
+          </article>
+
+          <!-- 2. Trademark -->
+          <article class="law-section" id="us-trademark">
+            <div class="section-meta">
+              <span class="section-num">02</span>
+              <span class="section-tag">Trademark</span>
+            </div>
+            <div class="section-body">
+              <h3 class="section-title">Trademark Law</h3>
+              <p class="section-cite">15 U.S.C. § 1114 — The Lanham Act (Trademark Act of 1946)</p>
+
+              <div class="statute-block">
+                <p class="statute-label">Statutory Text, § 1114(1)</p>
+                <blockquote class="statute-quote">
+                  "Any person who shall, without the consent of the registrant — (a) use in commerce any reproduction, counterfeit, copy, or colorable imitation of a registered mark in connection with the sale, offering for sale, distribution, or advertising of any goods or services on or in connection with which such use is likely to cause confusion, or to cause mistake, or to deceive; or (b) reproduce, counterfeit, copy, or colorably imitate a registered mark and apply such reproduction, counterfeit, copy, or colorable imitation to labels, signs, prints, packages, wrappers, receptacles or advertisements intended to be used in commerce upon or in connection with the sale, offering for sale, distribution, or advertising of goods or services on or in connection with which such use is likely to cause confusion, or to cause mistake, or to deceive, shall be liable in a civil action by the registrant..."
+                </blockquote>
+              </div>
+
+              <div class="analysis-block">
+                <p class="analysis-label">Key Principles</p>
+                <ul class="analysis-list">
+                  <li>U.S. trademark rights arise from <strong>actual use in commerce</strong>, not registration alone. Common law rights accrue upon first use in the marketplace.</li>
+                  <li>Federal registration on the Principal Register with the USPTO provides constructive notice nationwide, a legal presumption of validity and ownership, and the right to use the <strong>®</strong> symbol.</li>
+                  <li>The central question in infringement is likelihood of consumer confusion, assessed under the <em>Polaroid</em> factors in the Second Circuit or the <em>Sleekcraft</em> factors in the Ninth Circuit.</li>
+                  <li>Dilution of famous marks is actionable under 15 U.S.C. § 1125(c), covering both blurring and tarnishment, independent of any likelihood of confusion.</li>
+                  <li>Trade dress (product design and packaging) is protectable under 15 U.S.C. § 1125(a) if it is distinctive and non-functional.</li>
+                  <li>Incontestability: a registered mark used continuously for five years may become incontestable under 15 U.S.C. § 1065, limiting available defenses.</li>
+                </ul>
+              </div>
+            </div>
+          </article>
+
+          <!-- 3. Character Protection -->
+          <article class="law-section" id="us-character">
+            <div class="section-meta">
+              <span class="section-num">03</span>
+              <span class="section-tag">Character Protection</span>
+            </div>
+            <div class="section-body">
+              <h3 class="section-title">Fictional Character Protection</h3>
+              <p class="section-cite">The Towle Test — <em>DC Comics v. Towle</em>, 802 F.3d 1012 (9th Cir. 2015)</p>
+
+              <div class="statute-block">
+                <p class="statute-label">Court-Stated Three-Part Test</p>
+                <blockquote class="statute-quote">
+                  "In order for a character to be protectable, it must (1) have 'physical as well as conceptual qualities,' (2) be 'sufficiently delineated' to be recognizable as the same character whenever it appears, and (3) be 'especially distinctive' and contain some unique elements of expression."
+                </blockquote>
+              </div>
+
+              <div class="analysis-block">
+                <p class="analysis-label">Key Principles</p>
+                <ul class="analysis-list">
+                  <li>The <em>Towle</em> test consolidated earlier standards from <em>Warner Bros. Pictures v. Columbia Broadcasting System</em> (1954) and <em>Walt Disney Productions v. Air Pirates</em> (1978).</li>
+                  <li>A character can be protected by both copyright and trademark simultaneously, but each requires independent analysis. Copyright protects the specific creative expression, while trademark protects the character's function as a source identifier.</li>
+                  <li>Characters that are "merely a vehicle for the story" generally receive weaker copyright protection than characters with well-developed, recurring personalities and traits (<em>Nichols v. Universal Pictures</em>, 45 F.2d 119, 2d Cir. 1930).</li>
+                  <li>Visual characters (such as cartoon figures) tend to receive stronger protection than purely literary characters because their visual expression is more directly captured in fixed form.</li>
+                  <li>Secondary meaning must be established for character trade dress that is not inherently distinctive, demonstrating that consumers associate the character's appearance with a single commercial source.</li>
+                </ul>
+              </div>
+            </div>
+          </article>
+
+          <!-- 4. Artistic Expression Defense -->
+          <article class="law-section" id="us-artistic">
+            <div class="section-meta">
+              <span class="section-num">04</span>
+              <span class="section-tag">Artistic Defense</span>
+            </div>
+            <div class="section-body">
+              <h3 class="section-title">Artistic Expression Defense</h3>
+              <p class="section-cite"><em>Rogers v. Grimaldi</em>, 875 F.2d 994 (2d Cir. 1989) and the First Amendment</p>
+
+              <div class="statute-block">
+                <p class="statute-label">The Rogers Two-Prong Test</p>
+                <blockquote class="statute-quote">
+                  "We believe that in general the [Lanham] Act should be construed to apply to artistic works only where the public interest in avoiding consumer confusion outweighs the public interest in free expression. In the case of titles, that balance will normally not support application of the Act unless the title has no artistic relevance to the underlying work whatsoever, or, if it has some artistic relevance, unless the title explicitly misleads as to the source or the content of the work."
+                </blockquote>
+              </div>
+
+              <div class="analysis-block">
+                <p class="analysis-label">Key Principles</p>
+                <ul class="analysis-list">
+                  <li>The <em>Rogers</em> test balances First Amendment free speech interests against Lanham Act trademark rights in the context of expressive or artistic works.</li>
+                  <li>Prong One (artistic relevance): the use of a mark must have at least <em>some</em> artistic relevance to the underlying work to receive First Amendment protection. Any relevance above zero satisfies this prong.</li>
+                  <li>Prong Two (explicit misleading): even if artistically relevant, the use is not protected if it explicitly misleads consumers as to the source or content of the work. Mere risk of confusion is insufficient.</li>
+                  <li>The Supreme Court addressed the test in <em>Jack Daniel's Properties v. VIP Products</em> (2023), holding that the <em>Rogers</em> framework does not automatically apply when a defendant uses the plaintiff's mark as its own trademark (i.e., as a designation of source for defendant's goods).</li>
+                  <li>The defense applies most robustly to titles of artistic works, artistic content within works, and expressive merchandise that makes commentary on the referenced mark.</li>
+                </ul>
+              </div>
+            </div>
+          </article>
+
+        </div><!-- /.section-list -->
+      </section>
+
+      <!-- ===================== EU PANEL ===================== -->
+      <section id="panel-eu" class="panel" role="tabpanel" aria-labelledby="btn-eu" hidden>
+
+        <div class="panel-header">
+          <div class="panel-header-inner">
+            <span class="panel-kicker">Jurisdiction</span>
+            <h2 class="panel-title">European Union</h2>
+            <p class="panel-lead">EU intellectual property law is primarily harmonized through Directives and Regulations adopted by the European Parliament and Council, requiring transposition into Member State law and administered through supranational institutions such as the EUIPO.</p>
+          </div>
+          <div class="panel-number" aria-hidden="true">02</div>
+        </div>
+
+        <div class="section-list">
+
+          <!-- 1. Copyright -->
+          <article class="law-section" id="eu-copyright">
+            <div class="section-meta">
+              <span class="section-num">01</span>
+              <span class="section-tag">Copyright</span>
+            </div>
+            <div class="section-body">
+              <h3 class="section-title">Copyright Law</h3>
+              <p class="section-cite">Directive 2001/29/EC of the European Parliament and of the Council of 22 May 2001 on the harmonisation of certain aspects of copyright and related rights in the information society</p>
+
+              <div class="statute-block">
+                <p class="statute-label">Article 2 — Reproduction Right</p>
+                <blockquote class="statute-quote">
+                  "Member States shall provide for the exclusive right to authorise or prohibit direct or indirect, temporary or permanent reproduction by any means and in any form, in whole or in part: (a) for authors, of their works; (b) for performers, of fixations of their performances; (c) for phonogram producers, of their phonograms; (d) for the producers of the first fixations of films, in respect of the original and copies of their films; (e) for broadcasting organisations, of fixations of their broadcasts, whether those broadcasts are transmitted by wire or over the air, including by cable or satellite."
+                </blockquote>
+                <p class="statute-label">Article 3(1) — Right of Communication to the Public</p>
+                <blockquote class="statute-quote">
+                  "Member States shall provide authors with the exclusive right to authorise or prohibit any communication to the public of their works, by wire or wireless means, including the making available to the public of their works in such a way that members of the public may access them from a place and at a time individually chosen by them."
+                </blockquote>
+              </div>
+
+              <div class="analysis-block">
+                <p class="analysis-label">Key Principles</p>
+                <ul class="analysis-list">
+                  <li>The Directive harmonises the reproduction right, the right of communication to the public, and the distribution right across all EU Member States, reducing fragmentation of the internal market.</li>
+                  <li>Moral rights — the right of attribution and the right of integrity — are recognized and cannot be waived or assigned, rooted in the civil law tradition. Directive 2001/29/EC leaves moral rights regulation primarily to Member States.</li>
+                  <li>Article 5 of the Directive sets out a closed, exhaustive list of exceptions and limitations, including for temporary acts of reproduction, news reporting, educational use, and parody. Member States may only implement exceptions from this fixed list.</li>
+                  <li>The Directive was substantially supplemented by Directive 2019/790/EU (the Digital Single Market Directive), which introduced new rules on press publishers' rights (Article 15) and platform liability for user-uploaded content (Article 17).</li>
+                  <li>Copyright protection arises automatically upon creation of the work; no registration system exists at EU level. Duration follows the Berne Convention minimum, harmonised to life plus 70 years under Directive 2006/116/EC.</li>
+                  <li>The Court of Justice of the EU (CJEU) plays a central interpretive role, with landmark rulings such as <em>Infopaq International</em> (C-5/08, 2009) establishing that "own intellectual creation" is the EU-wide originality standard.</li>
+                </ul>
+              </div>
+            </div>
+          </article>
+
+          <!-- 2. Trademark -->
+          <article class="law-section" id="eu-trademark">
+            <div class="section-meta">
+              <span class="section-num">02</span>
+              <span class="section-tag">Trademark</span>
+            </div>
+            <div class="section-body">
+              <h3 class="section-title">Trademark Law</h3>
+              <p class="section-cite">Regulation (EU) 2017/1001 of the European Parliament and of the Council of 14 June 2017 on the European Union trade mark</p>
+
+              <div class="statute-block">
+                <p class="statute-label">Article 9(1) — Rights Conferred by an EU Trade Mark</p>
+                <blockquote class="statute-quote">
+                  "The registration of an EU trade mark shall confer on the proprietor exclusive rights therein. The proprietor shall be entitled to prevent all third parties not having his consent from using in the course of trade, in relation to goods or services, any sign where: (a) the sign is identical with the EU trade mark and is used in relation to goods or services which are identical with those for which the EU trade mark is registered; (b) the sign is identical with, or similar to, the EU trade mark and is used in relation to goods or services which are identical with, or similar to, the goods or services for which the EU trade mark is registered, if there exists a likelihood of confusion on the part of the public..."
+                </blockquote>
+                <p class="statute-label">Article 7(1)(b) — Absolute Grounds for Refusal</p>
+                <blockquote class="statute-quote">
+                  "The following shall not be registered: ... (b) trade marks which are devoid of any distinctive character; (c) trade marks which consist exclusively of signs or indications which may serve, in trade, to designate the kind, quality, quantity, intended purpose, value, geographical origin, or the time of production of the goods or of rendering of the service, or other characteristics of the goods or service..."
+                </blockquote>
+              </div>
+
+              <div class="analysis-block">
+                <p class="analysis-label">Key Principles</p>
+                <ul class="analysis-list">
+                  <li>The EU trade mark (EUTM) is a <strong>registration-based</strong> unitary right administered by the European Union Intellectual Property Office (EUIPO) in Alicante, Spain. A single registration provides protection throughout all EU Member States.</li>
+                  <li>Unlike the US system, mere use in commerce does not generate federally enforceable trademark rights in the EU. Rights flow from registration. National-level unregistered rights may exist under individual Member State law (e.g., passing off in common law jurisdictions).</li>
+                  <li>Revocation for non-use: a registered EUTM is vulnerable to cancellation if the mark has not been put to genuine use in the EU for an uninterrupted period of five years (Article 58).</li>
+                  <li>Complementary to Regulation 2017/1001, the Trade Mark Directive (EU) 2015/2436 harmonises national trademark laws across Member States.</li>
+                  <li>The CJEU has defined the function of a trademark broadly: not only to indicate origin but also to guarantee quality and communicate investment and advertising function (<em>L'Oreal v. Bellure</em>, C-487/07, 2009).</li>
+                  <li>Well-known marks with a reputation in the EU enjoy extended protection against use that takes unfair advantage of, or is detrimental to, the distinctive character or repute of the mark, even for dissimilar goods or services (Article 9(2)(c)).</li>
+                </ul>
+              </div>
+            </div>
+          </article>
+
+          <!-- 3. Character Protection -->
+          <article class="law-section" id="eu-character">
+            <div class="section-meta">
+              <span class="section-num">03</span>
+              <span class="section-tag">Character Protection</span>
+            </div>
+            <div class="section-body">
+              <h3 class="section-title">Fictional Character Protection</h3>
+              <p class="section-cite">EUIPO Guidelines on Examination of EU Trade Marks; CJEU Jurisprudence on Distinctiveness</p>
+
+              <div class="statute-block">
+                <p class="statute-label">EUIPO Guidelines, Part B, Section 4 — Distinctiveness (Non-conventional Marks)</p>
+                <blockquote class="statute-quote">
+                  "A sign consisting of the image of a fictional character may be registered as a trade mark if it is capable of distinguishing the goods or services of one undertaking from those of other undertakings... The examiner must assess whether the relevant public perceives the sign as indicating commercial origin, or whether they see it merely as decorative or as a reference to the fictional universe in which the character exists."
+                </blockquote>
+              </div>
+
+              <div class="analysis-block">
+                <p class="analysis-label">Key Principles</p>
+                <ul class="analysis-list">
+                  <li>The EU has no codified multi-factor test equivalent to the US Towle test. Fictional character marks are assessed under the general distinctiveness framework of Regulation 2017/1001, Article 7(1)(b).</li>
+                  <li>The EUIPO evaluates each application individually, considering whether the relevant public (typically the general consumer) recognises the character image as a badge of trade origin rather than a decorative or purely narrative element.</li>
+                  <li>Characters with very high public recognition (such as widely known cartoon figures) may face a paradox: their very fame can lead examiners to conclude that consumers see them as decorative rather than as trade mark indicators, unless the mark has acquired distinctiveness through use.</li>
+                  <li>Copyright in a fictional character is a separate question governed by the "own intellectual creation" standard from CJEU case law (<em>Painer v. Standard VerlagsGmbH</em>, C-145/10, 2011). A character's name, appearance, and personality can be protected as an author's intellectual creation if sufficiently original.</li>
+                  <li>No equivalent to US "secondary meaning" doctrine exists in EU trademark law by that name, but Article 7(3) allows registration of a mark that has acquired distinctiveness through use, which serves a functionally similar purpose.</li>
+                  <li>The CJEU has emphasised that the assessment of likelihood of confusion in character-related disputes must account for the "global appreciation" of visual, conceptual, and phonetic similarity (<em>SABEL v. Puma</em>, C-251/95, 1997).</li>
+                </ul>
+              </div>
+            </div>
+          </article>
+
+          <!-- 4. Artistic Expression Defense -->
+          <article class="law-section" id="eu-artistic">
+            <div class="section-meta">
+              <span class="section-num">04</span>
+              <span class="section-tag">Artistic Defense</span>
+            </div>
+            <div class="section-body">
+              <h3 class="section-title">Artistic Expression and Freedom of Expression</h3>
+              <p class="section-cite">Charter of Fundamental Rights of the European Union, Article 11; Directive 2001/29/EC, Article 5(3)(k); Regulation 2017/1001, Article 14</p>
+
+              <div class="statute-block">
+                <p class="statute-label">EU Charter of Fundamental Rights, Article 11 — Freedom of Expression and Information</p>
+                <blockquote class="statute-quote">
+                  "1. Everyone has the right to freedom of expression. This right shall include freedom to hold opinions and to receive and impart information and ideas without interference by public authority and regardless of frontiers. 2. The freedom and pluralism of the media shall be respected."
+                </blockquote>
+                <p class="statute-label">Directive 2001/29/EC, Article 5(3)(k) — Exceptions and Limitations</p>
+                <blockquote class="statute-quote">
+                  "Member States may provide for exceptions or limitations to the rights provided for in Articles 2 and 3 in the following cases: ... (k) use for the purpose of caricature, parody or pastiche."
+                </blockquote>
+                <p class="statute-label">Regulation 2017/1001, Article 14(2) — Limitations of the Effects of an EU Trade Mark</p>
+                <blockquote class="statute-quote">
+                  "The EU trade mark shall not entitle the proprietor to prohibit a third party from using, in the course of trade... signs or indications which are not distinctive or which concern the kind, quality, quantity, intended purpose, value, geographical origin, the time of production of goods or of rendering of the service, or other characteristics of goods or services... provided that the third party uses them in accordance with honest practices in industrial or commercial matters."
+                </blockquote>
+              </div>
+
+              <div class="analysis-block">
+                <p class="analysis-label">Key Principles</p>
+                <ul class="analysis-list">
+                  <li>The EU has no single codified defense equivalent to the US <em>Rogers v. Grimaldi</em> test. Instead, protection for artistic expression is achieved through a combination of fundamental rights, copyright exceptions, and trademark limitations.</li>
+                  <li>The CJEU confirmed in <em>Deckmyn v. Vandersteen</em> (C-201/13, 2014) that "parody" under Article 5(3)(k) of Directive 2001/29/EC is an autonomous concept of EU law. A parody must evoke an existing work while being noticeably different from it and must constitute an expression of humor or mockery.</li>
+                  <li>Freedom of expression under Article 11 of the EU Charter must be balanced against IP rights on a case-by-case basis. Neither right takes automatic precedence; courts must conduct a proportionality analysis.</li>
+                  <li>In trade mark law, artistic commentary on a mark may qualify under Article 14 of Regulation 2017/1001 as a limitation, provided the use is in accordance with honest practices. This concept of "honest practices" imports an objective good faith standard.</li>
+                  <li>The CJEU ruling in <em>Pelham v. Hutter</em> (C-476/17, 2019) confirmed that fundamental rights can directly limit IP rights, and that any exception must strike a fair balance between the competing interests involved.</li>
+                  <li>Unlike the US approach, EU law does not treat freedom of expression as a hard limit on trademark liability through a binary test, but rather as a value to be weighed in each specific factual context by the competent national court or the EUIPO.</li>
+                </ul>
+              </div>
+            </div>
+          </article>
+
+        </div><!-- /.section-list -->
+      </section>
+
+    </div><!-- /.container -->
+  </main>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-rule"></div>
+      <p class="footer-text">Presented by <strong>Gokhan Ceylan</strong>, Sapienza University of Rome, 2026</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
